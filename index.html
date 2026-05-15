@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Neha Khandare | Interior Designer Portfolio</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: #f8f9fb;
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(to right, #2c3e50, #4ca1af);
+      color: white;
+      text-align: center;
+      padding: 50px 20px;
+    }
+
+    header img {
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      border: 5px solid white;
+      object-fit: cover;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+      margin-bottom: 15px;
+    }
+
+    header h1 {
+      font-size: 32px;
+    }
+
+    section {
+      max-width: 1000px;
+      margin: auto;
+      padding: 30px 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 25px;
+      margin-bottom: 25px;
+      border-radius: 15px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    h2 {
+      margin-bottom: 10px;
+      color: #2c3e50;
+    }
+
+    .images {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 15px;
+      margin-top: 10px;
+    }
+
+    .images img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 12px;
+      transition: 0.3s;
+    }
+
+    .images img:hover {
+      transform: scale(1.05);
+    }
+
+    footer {
+      text-align: center;
+      background: #2c3e50;
+      color: white;
+      padding: 15px;
+    }
+
+    @media(max-width: 600px) {
+      header h1 {
+        font-size: 24px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <img src="profile.jpg" alt="Profile">
+    <h1>Neha Khandare</h1>
+    <p>Civil Engineering Student | Future Interior Designer</p>
+  </header>
+
+  <!-- CONTENT -->
+  <section>
+
+    <!-- ABOUT -->
+    <div class="card">
+      <h2>About Me</h2>
+      <p>Hello! I am Neha Khandare, a Civil Engineering student passionate about creativity and design. I want to become an Interior Designer and create beautiful, functional spaces.</p>
+    </div>
+
+    <!-- DESIGN -->
+    <div class="card">
+      <h2>My Design Vision</h2>
+      <p>I believe design should be both beautiful and useful. I enjoy working with colors, layouts, and modern interior ideas to create comfortable and attractive spaces.</p>
+    </div>
+
+    <!-- HOBBY -->
+    <div class="card">
+      <h2>Hobbies</h2>
+      <p>I love dancing and expressing creativity through movement.</p>
+    </div>
+
+    <!-- ART -->
+    <div class="card">
+      <h2>Love for Arts</h2>
+      <p>I enjoy sketching and creative work. Art inspires my design thinking.</p>
+      <div class="images">
+        <img src="art.jpg">
+      </div>
+    </div>
+
+    <!-- CERTIFICATES -->
+    <div class="card">
+      <h2>Certificates</h2>
+      <div class="images">
+        <img src="cisco1.jpg">
+        <img src="cisco2.jpg">
+        <img src="ibm.jpg">
+      </div>
+    </div>
+
+    <!-- DANCE -->
+    <div class="card">
+      <h2>Dance Gallery</h2>
+      <div class="images">
+        <img src="dance1.jpg">
+        <img src="dance2.jpg">
+        <img src="dance3.jpg">
+      </div>
+    </div>
+
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2026 Neha Khandare</p>
+  </footer>
+
+</body>
+</html>
